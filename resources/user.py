@@ -12,7 +12,7 @@ from blocklist import BLOCKLIST
 from models.user import UserModel
 from schemas.user import UserSchema
 
-USER_ALREADY_EXISTS = "A user with that username already exists."
+USER_ALREADY_EXISTS = "An user with that username already exists."
 CREATED_SUCCESSFULLY = "User created successfully."
 USER_NOT_FOUND = "User not found."
 USER_DELETED = "User deleted."

@@ -12,11 +12,6 @@ class ItemModel(db.Model):
     store_id = db.Column(db.Integer, db.ForeignKey("stores.id"), nullable=False)
     store = db.relationship("StoreModel")
 
-    def __init__(self, name: str, price: float, store_id: int) -> None:
-        self.name = name
-        self.price = price
-        self.store_id = store_id
-
     def save_to_db(self) -> None:
         db.session.add(self)
         db.session.commit()
