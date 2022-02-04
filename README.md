@@ -2,7 +2,7 @@
 ## https://www.udemy.com/course/advanced-rest-apis-flask-python/
 
 ```
-This project is implemented using Flask, Flask-RESTful, Flask-SQLAlchemy and is a REST API for a store.
+This project is implemented using Flask, Flask-RESTful, Flask-SQLAlchemy, Flask-Marshmallow and is a REST API for a store.
 ```
 
 **Installation commands**
