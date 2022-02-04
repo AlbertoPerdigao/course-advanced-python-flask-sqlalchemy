@@ -1,4 +1,3 @@
-from typing import Dict, Union
 from db import db
 
 
