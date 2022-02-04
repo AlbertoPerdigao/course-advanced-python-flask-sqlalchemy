@@ -1,0 +1,24 @@
+** Git commands **
+
+git status
+git add/rm <file>
+git commit -m "Commit message."
+
+git push
+or
+git push -u origin <branch_name>
+
+git branch <branch_name2>        # create a new branch           Ex.: git branch fix/something
+git checkout <branch_name2>      # switch to the <branch_name2>  Ex.: git checkout fix/something
+
+When you want to merge your feature branch (fix/something) into the master branch:
+git checkout master
+git fetch
+git merge fix/something
+git push
+git branch -d fix/something             # delete LOCALLY the branch "fix/something" if it has already been pushed and merged with the remote branch. 
+                                        # use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
+git push origin --delete fix/something  # delete REMOTELY the branch "fix/something"
+
+How to change a commit message:
+https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
