@@ -22,3 +22,5 @@ git push origin --delete fix/something  # delete REMOTELY the branch "fix/someth
 
 How to change a commit message:
 https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
+
+git update-index --assume-unchanged <file>
